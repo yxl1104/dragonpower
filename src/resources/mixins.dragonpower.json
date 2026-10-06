@@ -1,1 +1,15 @@
-
+{
+  "required": true,
+  "package": "com.dragonpower.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "PlayerEntityMixin",
+    "BowItemMixin",
+    "CrossbowItemMixin",
+    "ArrowEntityMixin"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
