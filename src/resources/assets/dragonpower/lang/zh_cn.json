@@ -1,1 +1,6 @@
-
+{
+  "category.dragonpower": "末影龙能力模组",
+  "key.dragonpower.toggle": "切换变身",
+  "key.dragonpower.dash": "冲刺技能",
+  "key.dragonpower.fireball": "吐出龙息弹"
+}
