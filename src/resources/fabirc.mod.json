@@ -1,1 +1,25 @@
-
+{
+  "schemaVersion": 1,
+  "id": "dragonpower",
+  "version": "1.0.0",
+  "name": "Toggleable Ender Dragon Power",
+  "description": "Toggleable Ender Dragon abilities for MC1.21.1",
+  "authors": ["Custom"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/dragonpower/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": "com.dragonpower.DragonPowerMod",
+    "client": "com.dragonpower.DragonPowerClient"
+  },
+  "mixins": [
+    "mixins.dragonpower.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.15.11",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": ">=0.102.1+1.21.1"
+  }
+}
