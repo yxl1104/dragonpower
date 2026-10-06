@@ -1,1 +1,6 @@
-
+{
+  "category.dragonpower": "Ender Dragon Power",
+  "key.dragonpower.toggle": "Toggle Power",
+  "key.dragonpower.dash": "Dash Skill",
+  "key.dragonpower.fireball": "Fire Dragon Ball"
+}
